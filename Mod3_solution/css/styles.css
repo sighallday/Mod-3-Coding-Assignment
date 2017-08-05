@@ -1,0 +1,145 @@
+/** HEADER **/
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border-color: black;
+  border-width: 2px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+
+
+.nav{
+  background-color: gray;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Helvetica', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  background: white;
+  font-size: 1.1em;
+  font-weight: bold;
+
+}
+
+.nav>li {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  background: white;
+  border-radius: 0;
+  border-color: black;
+  border-width: 2px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+/* END HEADER */
+
+#our-menu {
+  font-family: 'Helvetica', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#tall-section {
+  font-family: 'Helvetica', serif;
+  height: 1000px;
+  width: 80%;
+  margin: auto;
+  background: gray;
+  margin-bottom: 40px;
+}
+
+#talltitle {
+  text-align: center;
+}
+
+/*div>p {
+  max-width: 80%;
+}*/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+ 
+    height: 80px;
+  }
+
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
+
